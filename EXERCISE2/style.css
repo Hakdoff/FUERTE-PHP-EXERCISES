@@ -1,5 +1,6 @@
 body {
     margin-top: 50px;
+    background: #333;
 }
 
 .calculator {
@@ -53,9 +54,10 @@ button.monochrome-button:hover {
     padding: 20px;
 }
 
-.input,
+
 .operator {
     margin-bottom: 10px;
+    width: fit-content;
 }
 
 label {
@@ -66,7 +68,7 @@ label {
 input[type="number"],
 select {
     padding: 5px;
-    width: 100%;
+    width: 30%;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -87,4 +89,8 @@ button.submit:hover {
 .result {
     margin-top: 20px;
     font-size: 18px;
+}
+
+h3 {
+    color: black;
 }

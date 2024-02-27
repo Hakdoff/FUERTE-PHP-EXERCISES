@@ -1,5 +1,5 @@
-<?php include 'view/header.php';
-include 'model/calModel.php'; ?>
+<?php include 'view/header.php'; 
+?>
 
 
 <div class= "calculator">
@@ -24,11 +24,13 @@ include 'model/calModel.php'; ?>
         <label for="num2"> Enter another number</label>
         <input type="number" id="num2" name="num2">
     </div>
+    <br>
 
     <button class="submit" type="submit">Calculate</button>
     </form>
-
- <h3><?php 'model/calModel.php' ?></h3>
+     <h3><?php echo "Result: "; include 'model/calModel.php'?></h3>
 </div>
+
+
 
 <?php include 'view/footer.php'?>

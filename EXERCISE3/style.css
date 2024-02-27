@@ -1,13 +1,14 @@
 body {
     margin-top: 50px;
+    background-color: #333;
 }
 
 .fibonacci {
     width: 50%;
     margin: auto;
     min-height: 400px;
-    box-shadow: 0 8px 50px -7px black;
-    background: #657889;
+    box-shadow: 0 8px 10px -5px black;
+    background-color: #f8f8f8;
     text-align: center;
 }
 
@@ -46,7 +47,7 @@ button.monochrome-button:hover {
     /* Slightly lighter gray border on hover */
 }
 
-.calculator {
+.fibonacci {
     background-color: #f8f8f8;
     color: #333;
     font-family: Arial, sans-serif;
@@ -63,12 +64,6 @@ label {
     font-weight: bold;
 }
 
-input {
-    padding: 5px;
-    width: 50%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 
 button.submit {
     background-color: #333;
@@ -86,9 +81,4 @@ button.submit:hover {
 .result {
     margin-top: 20px;
     font-size: 18px;
-}
-
-h4 {
-    margin: 20px;
-    font-weight: lighter;
 }
