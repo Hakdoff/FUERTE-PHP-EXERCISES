@@ -1,5 +1,4 @@
 <?php 
-
 include 'controller/calController.php';
 
 $num1 = $_POST['num1'];

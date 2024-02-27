@@ -1,5 +1,5 @@
 <?php include 'view/header.php';
-include 'model/calModel.php';?>
+include 'model/calModel.php'; ?>
 
 
 <div class= "calculator">
@@ -28,7 +28,7 @@ include 'model/calModel.php';?>
     <button class="submit" type="submit">Calculate</button>
     </form>
 
- <h3><?php echo "Result: $result" ?></h3>
+ <h3><?php 'model/calModel.php' ?></h3>
 </div>
 
 <?php include 'view/footer.php'?>
