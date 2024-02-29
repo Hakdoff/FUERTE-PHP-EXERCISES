@@ -1,4 +1,4 @@
-
+<?php include 'loginController.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +16,19 @@
             <?php } ?>
   
     </div>
-        <form action="" method="post" autocomplete="off">
+        <form action="" method="post" >
             <label for="uname">Username:</label>
-            <input type="text" name="uname" id="uname"  required></input>
+            <input type="text" name="uname" id="uname" ></input>
             <br><br>
             <label for="pass">Password:</label>
-            <input type="password" name="pass" id="pass"  required></input>
+            <input type="password" name="pass" id="pass" ></input>
 <br><br>
             <button class="submit" type="submit" name="login">Login</button>
         </form>
 
-     <h4><?php include 'loginController.php' ?></h4>
+     <h4> <?php if(isset($print)) { ?>
+            <p><?php echo $print; ?></p> 
+            <?php } ?></h4>
     </div>
 </body>
 </html>

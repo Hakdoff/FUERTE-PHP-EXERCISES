@@ -11,17 +11,10 @@ body {
     background-color: #f8f8f8;
     text-align: center;
     font-family: Arial, sans-serif;
-    ;
+    padding: 20px;
 }
 
 .submit {
-    padding: 15px 15px;
-    display: inline-block;
-    font-size: medium;
-    border-radius: 10px;
-}
-
-.operator {
     padding: 15px 15px;
     display: inline-block;
     font-size: medium;
@@ -56,8 +49,10 @@ label {
 }
 
 
-
-
 h1 {
     justify-content: center;
+}
+
+h4 {
+    font-weight: medium;
 }
